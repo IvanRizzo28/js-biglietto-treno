@@ -5,6 +5,7 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 - va applicato uno sconto del 40% per gli over 65.
 - L’output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 
+LOGICA:
 
 - Inizialmete prendo in input i chilometri e l'età del passeggero
 - Faccio la moltiplicazione fra il prezzo per Km e i chilometri da percorrere
