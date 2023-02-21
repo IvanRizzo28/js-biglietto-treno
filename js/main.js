@@ -7,8 +7,8 @@ while(chilometri<=0 || eta<=0){
 }
 
 let prezzoBiglietto=prezzo*chilometri;
-console.log(prezzoBiglietto);
-let sconto=1;
+//console.log(prezzoBiglietto);
+let sconto=1; //sconto=1 prezzo pieno //sconto=0.8 sconto del 20% //sconto=0.6 sconto del 40%
 
 if(eta<18) {
     sconto=0.8;
