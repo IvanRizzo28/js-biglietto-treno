@@ -3,7 +3,7 @@ const prezzo=0.21;
 
 while(chilometri<=0 || eta<=0){
     chilometri=Number(prompt("inserisci i chilometri da percorrere"));
-    eta=Number(prompt("inserisci la tua età"));
+    eta=parseInt(prompt("inserisci la tua età"));
 }
 
 let prezzoBiglietto=prezzo*chilometri;
